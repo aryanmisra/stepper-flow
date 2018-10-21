@@ -1,0 +1,24 @@
+Here is just the algorithm used, if you do not wish to implement the program through python.
+
+    //imp1
+    [1,1,0,0
+     0,1,1,0
+     0,0,1,1
+     1,0,0,1]
+    //imp2
+    [1,0,0,1
+     0,0,1,1
+     0,1,1,0
+     1,1,0,0]
+    //dir1
+    [0,0,1,1,0,1,1,0
+     0,1,1,0,0,0,1,1
+     1,1,0,0,1,0,0,1]
+    //dir2
+    [1,1,0,0,1,0,0,1
+     0,1,1,0,0,0,1,1
+     0,0,1,1,0,1,1,0
+     1,0,0,1,1,1,0,0]
+   
+   For dir1/2, there is a higher amount of logic to allow for more precision.
+   This can be used with 4/8 lead stepper motors, originally used for a vehicle, however it can be implemented elsewhere.
